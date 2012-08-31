@@ -1,0 +1,12 @@
+<% if @coworker.errors.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-error">
+      表格出现<%= @coworker.errors.count %>个错误.
+    </div>
+    <ul>
+    <% @coworker.errors.full_messages.each do |msg| %>
+      <li>* <%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

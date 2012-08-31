@@ -1,0 +1,28 @@
+<h1>活水团契事工</h1>
+
+<table>
+  <tr>
+    <th>事工小组</th>
+    <th>事工内容</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ministries.each do |ministry| %>
+  <tr>
+    <td><%= ministry.name %></td>
+    <td><%= ministry.description %></td>
+    <td><%= link_to 'Show', ministry %></td>
+    <td><%= link_to 'Edit', edit_ministry_path(ministry) %></td>
+    <td><%= link_to 'Destroy', ministry, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= button_to '我要加入！', my_ministries_path(ministry_id: ministry) %></td>
+  </tr>
+<% end %>
+</table>
+
+
+
+<br />
+
+<%= link_to 'New Ministry', new_ministry_path %>

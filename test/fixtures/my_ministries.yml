@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: my_ministries
+#
+#  id          :integer          not null, primary key
+#  coworker_id :integer
+#  ministry_id :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  coworker_id: 1
+  ministry_id: 1
+
+two:
+  coworker_id: 1
+  ministry_id: 1
