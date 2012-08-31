@@ -45,7 +45,8 @@ class CoworkersController < ApplicationController
 
     respond_to do |format|
       if @coworker.save
-        format.html { redirect_to @coworker, notice: 'Coworker was successfully created.' }
+        flash[:success] = "增加了一个新同工！"
+        redirect_to @coworker
         format.json { render json: @coworker, status: :created, location: @coworker }
       else
         format.html { render action: "new" }
