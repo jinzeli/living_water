@@ -12839,3 +12839,2165 @@ Served asset /static_pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:04:31 +0200
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+  Processing by CoworkersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.0ms)
+Rendered coworkers/new.html.erb within layouts/application (32.2ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /coworkers.css - 200 OK (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /custom.css - 200 OK (6ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /ministries.css - 200 OK (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /my_ministries.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /static_pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:34 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:35 +0200
+Served asset /coworkers.js - 200 OK (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:35 +0200
+Served asset /ministries.js - 200 OK (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:35 +0200
+Served asset /my_ministries.js - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:35 +0200
+Served asset /static_pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:35:35 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 00:37:32 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+  Processing by CoworkersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.0ms)
+Rendered coworkers/new.html.erb within layouts/application (9.2ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /custom.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:37:36 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/coworkers/1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+  Processing by CoworkersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCoworker Load (0.5ms)[0m  SELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."id" = $1 LIMIT 1  [["id", "1"]]
+Rendered coworkers/show.html.erb within layouts/application (5.3ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 48.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:11 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/coworkers/1/edit" for 127.0.0.1 at 2012-09-01 00:39:20 +0200
+  Processing by CoworkersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoworker Load (0.1ms)[0m  [1mSELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+Rendered coworkers/_form.html.erb (29.1ms)
+Rendered coworkers/edit.html.erb within layouts/application (30.7ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 51.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:21 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/coworkers" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+  Processing by CoworkersController#index as HTML
+  [1m[35mCoworker Load (0.2ms)[0m  SELECT "coworkers".* FROM "coworkers" 
+Rendered coworkers/index.html.erb within layouts/application (6.1ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:39:55 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/coworkers/1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+  Processing by CoworkersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoworker Load (0.2ms)[0m  [1mSELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+Rendered coworkers/show.html.erb within layouts/application (4.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:02 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/coworkers" for 127.0.0.1 at 2012-09-01 00:40:21 +0200
+  Processing by CoworkersController#index as HTML
+  [1m[35mCoworker Load (0.2ms)[0m  SELECT "coworkers".* FROM "coworkers" 
+Rendered coworkers/index.html.erb within layouts/application (5.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 49.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /custom.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:22 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/ministries" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+  Processing by MinistriesController#index as HTML
+  [1m[36mMinistry Load (0.4ms)[0m  [1mSELECT "ministries".* FROM "ministries" [0m
+Rendered ministries/index.html.erb within layouts/application (1.0ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /custom.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:32 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+  Processing by CoworkersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.0ms)
+Rendered coworkers/new.html.erb within layouts/application (8.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 00:40:36 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 00:40:46 +0200
+
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 10:32:59 +0200
+  [1m[35m (0.2ms)[0m  SHOW search_path
+  Processing by CoworkersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.0ms)
+Rendered coworkers/new.html.erb within layouts/application (10.0ms)
+Compiled application.css  (2ms)  (pid 31882)
+Compiled sessions.css  (31ms)  (pid 31882)
+Compiled application.js  (4ms)  (pid 31882)
+Compiled sessions.js  (231ms)  (pid 31882)
+Rendered layouts/_shim.html.erb (0.1ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 479ms (Views: 476.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /sessions.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /custom.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:00 +0200
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 10:33:01 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:02 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 10:33:39 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-09-01 11:14:44 +0200
+
+SyntaxError (/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: invalid multibyte char (US-ASCII)
+/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: invalid multibyte char (US-ASCII)
+/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: syntax error, unexpected $end, expecting keyword_end
+      flash[:error] = 'email和password的组合不太对哦～'
+                              ^):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 11:14:58 +0200
+
+SyntaxError (/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: invalid multibyte char (US-ASCII)
+/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: invalid multibyte char (US-ASCII)
+/Users/jinze/rails_projects/living_water/app/controllers/sessions_controller.rb:10: syntax error, unexpected $end, expecting keyword_end
+      flash[:error] = 'email和password的组合不太对哦～'
+                              ^):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 11:15:38 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:38 +0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:39 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-09-01 11:15:40 +0200
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"78SHrLX7zZy0ar8EGSAzq0/tOvJyiHTZVqPHkGx+za4=", "session"=>{"email"=>"jinze_li@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"登入"}
+  [1m[36mCoworker Load (0.7ms)[0m  [1mSELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."email" = 'jinze_li@yahoo.com' LIMIT 1[0m
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 203ms (Views: 24.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /custom.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:15:41 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"78SHrLX7zZy0ar8EGSAzq0/tOvJyiHTZVqPHkGx+za4=", "session"=>{"email"=>"jinze_li@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"登入"}
+  [1m[35mCoworker Load (0.2ms)[0m  SELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."email" = 'jinze_li@yahoo.com' LIMIT 1
+Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 23.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /custom.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:16:02 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:18:12 +0200
+Served asset /rails.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:18:14 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:18:33 +0200
+
+ArgumentError (missing :action):
+  config/routes.rb:5:in `block in <top (required)>'
+  config/routes.rb:2:in `<top (required)>'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:19:15 +0200
+
+ArgumentError (missing :action):
+  config/routes.rb:6:in `block in <top (required)>'
+  config/routes.rb:2:in `<top (required)>'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:19:17 +0200
+
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:19:18 +0200
+
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:19:49 +0200
+
+ArgumentError (missing :action):
+  config/routes.rb:6:in `block in <top (required)>'
+  config/routes.rb:2:in `<top (required)>'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+  [1m[36m (0.2ms)[0m  [1mSHOW search_path[0m
+  Processing by CoworkersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.4ms)
+Rendered coworkers/new.html.erb within layouts/application (17.6ms)
+Rendered layouts/_shim.html.erb (0.3ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 120.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /coworkers.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /custom.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /ministries.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /my_ministries.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /coworkers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /ministries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /my_ministries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:20:07 +0200
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:20:12 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:20:13 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:20:14 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:20:58 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.2ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /custom.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:02 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:21:30 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:21:32 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-01 11:21:34 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:22:43 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /custom.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:32 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.1ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /custom.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 11:23:41 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (10.8ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateCoworkers (20120827204218)
+Migrating to CreateMinistries (20120827215352)
+Migrating to CreateMyMinistries (20120827221026)
+Migrating to AddIndexToCoworkersEmail (20120828100304)
+Migrating to AddPasswordDigestToCoworkers (20120828102114)
+Migrating to AddRememberTokenToCoworkers (20120901132840)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "coworkers" ADD COLUMN "remember_token" character varying(255)
+  [1m[36m (1.5ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'coworkers'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+[0m
+  [1m[35mColumns for index index_coworkers_on_email on coworkers (0.3ms)[0m   SELECT a.attnum, a.attname
+ FROM pg_attribute a
+ WHERE a.attrelid = 16391
+ AND a.attnum IN (3)
+  [1m[36m (9.7ms)[0m  [1mCREATE INDEX "index_coworkers_on_remember_token" ON "coworkers" ("remember_token")[0m
+  [1m[35m (15.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120901132840')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SHOW search_path
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.2ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'coworkers'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+  [1m[36mColumns for index index_coworkers_on_email on coworkers (0.3ms)[0m  [1m SELECT a.attnum, a.attname
+ FROM pg_attribute a
+ WHERE a.attrelid = 16391
+ AND a.attnum IN (3)
+[0m
+  [1m[35mColumns for index index_coworkers_on_remember_token on coworkers (0.2ms)[0m   SELECT a.attnum, a.attname
+ FROM pg_attribute a
+ WHERE a.attrelid = 16391
+ AND a.attnum IN (7)
+  [1m[36m (0.6ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'ministries'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+[0m
+  [1m[35m (0.6ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'my_ministries'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:11:08 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Compiled application.js  (5ms)  (pid 33498)
+Compiled bootstrap.js  (36ms)  (pid 33498)
+Compiled bootstrap-transition.js  (0ms)  (pid 33498)
+Compiled bootstrap-alert.js  (0ms)  (pid 33498)
+Compiled bootstrap-button.js  (0ms)  (pid 33498)
+Compiled bootstrap-carousel.js  (0ms)  (pid 33498)
+Compiled bootstrap-collapse.js  (0ms)  (pid 33498)
+Compiled bootstrap-dropdown.js  (2ms)  (pid 33498)
+Compiled bootstrap-modal.js  (2ms)  (pid 33498)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 33498)
+Compiled bootstrap-tab.js  (0ms)  (pid 33498)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 33498)
+Compiled bootstrap-popover.js  (0ms)  (pid 33498)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 33498)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (164.0ms)
+Completed 500 Internal Server Error in 432ms
+
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x00000105152470>:0x00000105146f58>):
+    5:       <nav>
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    help_path %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb___2379762888191750546_2192322640'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:11:37 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (135.6ms)
+Completed 500 Internal Server Error in 183ms
+
+ActionView::Template::Error (undefined method `signed_in?' for #<#<Class:0x0000010521cd60>:0x00000105213b98>):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:11:52 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (uninitialized constant SessionsHelper::User):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:9:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:15:58 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (uninitialized constant SessionsHelper::User):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:9:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:15:59 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (uninitialized constant SessionsHelper::User):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:9:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:16:00 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (uninitialized constant SessionsHelper::User):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:9:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:16:00 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (uninitialized constant SessionsHelper::User):
+    6:         <ul class="nav pull-right">
+    7:           <li><%= link_to "主页",    root_path %></li>
+    8:           <li><%= link_to "帮助",    "#" %></li>
+    9:           <% if signed_in? %>
+    10:             <li><%= link_to "服事人员", '#' %></li>
+    11:             <li id="fat-menu" class="dropdown">
+    12:               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:9:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:17:38 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCoworker Load (0.5ms)[0m  SELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."remember_token" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (188.3ms)
+Completed 500 Internal Server Error in 214ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x000001055a5310>:0x000001055a0d60>):
+    13:                 账户 <b class="caret"></b>
+    14:               </a>
+    15:               <ul class="dropdown-menu">
+    16:                 <li><%= link_to "档案", current_user %></li>
+    17:                 <li><%= link_to "设置", '#' %></li>
+    18:                 <li class="divider"></li>
+    19:                 <li>
+  app/views/layouts/_header.html.erb:16:in `_app_views_layouts__header_html_erb___2379762888191750546_2192236340'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___1048553202545266073_2191839360'
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mCoworker Load (0.2ms)[0m  [1mSELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."remember_token" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (20.3ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /custom.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-button.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-carousel.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-modal.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-tooltip.js - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap-typeahead.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /bootstrap.js - 200 OK (9ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 16:18:02 +0200
+Served asset /application.js - 200 OK (3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-09-01 16:21:18 +0200
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"78SHrLX7zZy0ar8EGSAzq0/tOvJyiHTZVqPHkGx+za4=", "session"=>{"email"=>"jinze_li@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"登入"}
+  [1m[35mCoworker Load (0.6ms)[0m  SELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."email" = 'jinze_li@yahoo.com' LIMIT 1
+Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mCoworker Load (0.4ms)[0m  [1mSELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."remember_token" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.9ms)
+Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 159ms (Views: 28.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:18 +0200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:18 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:18 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:18 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:19 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-09-01 16:21:30 +0200
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"78SHrLX7zZy0ar8EGSAzq0/tOvJyiHTZVqPHkGx+za4=", "session"=>{"email"=>"jinze_li@yahoo.com", "password"=>"[FILTERED]"}, "commit"=>"登入"}
+  [1m[35mCoworker Load (0.3ms)[0m  SELECT "coworkers".* FROM "coworkers" WHERE "coworkers"."email" = 'jinze_li@yahoo.com' LIMIT 1
+Completed 500 Internal Server Error in 108ms
+
+ActionView::MissingTemplate (Missing template sessions/create, application/create with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/jinze/rails_projects/living_water/app/views"
+):
+  
+
+Rendered /Users/jinze/.rvm/gems/ruby-1.9.2-p180@rails313gemset/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/coworkers.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /coworkers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /custom.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /my_ministries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/coworkers.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /coworkers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_ministries.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /my_ministries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-01 16:21:41 +0200
+Served asset /application.js - 304 Not Modified (2ms)

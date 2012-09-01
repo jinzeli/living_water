@@ -1,16 +1,22 @@
 # -*- encoding : utf-8 -*-
 LivingWater::Application.routes.draw do
-  get "static_pages/home"
+  #get "static_pages/home"
   
-  root to: 'static_pages#home'
-  
-  match '/signup', to: 'coworkers#new'
+  #root to: 'static_pages#home'
+  root to: 'sessions#new'
 
   resources :my_ministries
 
   resources :ministries
 
   resources :coworkers
+  
+  resources :sessions, only: [:new, :create, :destroy]
+  
+  match '/signup', to: 'coworkers#new'
+  match '/signin', to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

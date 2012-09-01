@@ -1,0 +1,19 @@
+<% provide(:title, "登入") %>
+<h1>登入</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.submit "登入", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <p>有新的弟兄姊妹要服事? <%= link_to "为她|他建立帐号!", signup_path %></p>
+  </div>
+</div>

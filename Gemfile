@@ -45,5 +45,8 @@ gem 'annotate', '2.5.0', group: :development
 group :test do
   # Pretty printed test output
   gem 'pg'
+  gem 'cucumber-rails', '1.2.1', require: false
+  gem 'database_cleaner', '0.7.0'
   gem 'turn', '0.8.2', :require => false
+
 end
