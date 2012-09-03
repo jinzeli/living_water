@@ -1,5 +1,8 @@
 # -*- encoding : utf-8 -*-
 class MyMinistriesController < ApplicationController
+  #before_filter :signed_in_coworker, only: [:index, :show]
+  #before_filter :correct_coworker,   only: [:create, :destroy]
+  #before_filter :admin_coworker, only: [:new, :update, :edit]
   # GET /my_ministries
   # GET /my_ministries.json
   def index
@@ -41,11 +44,14 @@ class MyMinistriesController < ApplicationController
   # POST /my_ministries
   # POST /my_ministries.json
   def create
-    @my_ministry = MyMinistry.new(params[:my_ministry])
-
+    #@my_ministry = MyMinistry.new(params[:my_ministry])
+    @coworker = current_coworker
+    ministry = Ministry.find(params[:ministry_id])
+    @my_ministry = @coworker.my_ministries.build(ministry: ministry)
     respond_to do |format|
       if @my_ministry.save
-        format.html { redirect_to @my_ministry, notice: 'My ministry was successfully created.' }
+        flash[:success] = "祝贺你，加入事工了！"
+        format.html { redirect_to ministries_url }
         format.json { render json: @my_ministry, status: :created, location: @my_ministry }
       else
         format.html { render action: "new" }
@@ -75,10 +81,27 @@ class MyMinistriesController < ApplicationController
   def destroy
     @my_ministry = MyMinistry.find(params[:id])
     @my_ministry.destroy
-
+    flash[:success] = "退出了一个事工"
     respond_to do |format|
-      format.html { redirect_to my_ministries_url }
+      format.html { redirect_to ministries_url }
       format.json { head :ok }
     end
   end
+
+  def join_ministry
+    @coworker = current_coworker
+    ministry = Ministry.find(params[:id])
+    @my_ministry = @coworker.my_ministries.build(ministry: ministry)
+    
+    respond_to do |format|
+      if @my_ministry.save
+        
+        flash[:success] = "加入事工了！"
+      else
+        format.html { redirect_to @ministries  }
+        flash[:error] = "加入事工失败了#*@!~"
+      end
+    end
+  end  
+
 end

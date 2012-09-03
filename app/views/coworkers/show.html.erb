@@ -1,15 +1,11 @@
 <% provide(:title, @coworker.name) %>
 <div class="row">
-  <aside class="span4">
-    <section>
-      <h1>
-        <%= gravatar_for @coworker %>
-        <%= @coworker.name %>
-      </h1>
-    </section>
-  </aside>
+	<div class="span2">
+      <div class="span3"><%= gravatar_for @coworker %></div>
+    </div>
+    <div class="span5">
+    	<div class="well">
+      <h3><%= @coworker.name %></h3>
+      </div>
+	</div>
 </div>
-
-
-<%= link_to 'Edit', edit_coworker_path(@coworker) %> |
-<%= link_to 'Back', coworkers_path %>

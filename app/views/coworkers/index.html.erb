@@ -1,25 +1,6 @@
-<h1>Listing coworkers</h1>
+<% provide(:title, '爱服事成员') %>
+<h1>爱服事成员</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @coworkers.each do |coworker| %>
-  <tr>
-    <td><%= coworker.name %></td>
-    <td><%= coworker.email %></td>
-    <td><%= link_to 'Show', coworker %></td>
-    <td><%= link_to 'Edit', edit_coworker_path(coworker) %></td>
-    <td><%= link_to 'Destroy', coworker, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Coworker', new_coworker_path %>
+<ul class="users">
+  <%= render @coworkers %>
+</ul>

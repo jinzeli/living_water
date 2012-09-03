@@ -1,10 +1,12 @@
 # -*- encoding : utf-8 -*-
 class MinistriesController < ApplicationController
+  before_filter :signed_in_coworker, only: [:index, :show]
+  before_filter :admin_coworker, only: [:new, :edit, :create, :update, :destroy]
   # GET /ministries
   # GET /ministries.json
   def index
     @ministries = Ministry.all
-
+    @coworker = current_coworker
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @ministries }
@@ -45,7 +47,7 @@ class MinistriesController < ApplicationController
 
     respond_to do |format|
       if @ministry.save
-        format.html { redirect_to @ministry, notice: 'Ministry was successfully created.' }
+        format.html { redirect_to @ministry, notice: '建立了一个事工小组' }
         format.json { render json: @ministry, status: :created, location: @ministry }
       else
         format.html { render action: "new" }
@@ -61,7 +63,7 @@ class MinistriesController < ApplicationController
 
     respond_to do |format|
       if @ministry.update_attributes(params[:ministry])
-        format.html { redirect_to @ministry, notice: 'Ministry was successfully updated.' }
+        format.html { redirect_to @ministry, notice: '更新了一个事工小组' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }
@@ -75,7 +77,7 @@ class MinistriesController < ApplicationController
   def destroy
     @ministry = Ministry.find(params[:id])
     @ministry.destroy
-
+    flash[:success] = "删除了一个事工小组"
     respond_to do |format|
       format.html { redirect_to ministries_url }
       format.json { head :ok }

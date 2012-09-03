@@ -14,4 +14,5 @@
 class MyMinistry < ActiveRecord::Base
   belongs_to :ministry
   belongs_to :coworker
+  attr_accessible  :coworker, :ministry, :ministry_id
 end

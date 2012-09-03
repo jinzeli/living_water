@@ -11,8 +11,8 @@
 
 <% @my_ministries.each do |my_ministry| %>
   <tr>
-    <td><%= my_ministry.coworker_id %></td>
-    <td><%= my_ministry.ministry_id %></td>
+    <td><%= my_ministry.coworker.name %></td>
+    <td><%= my_ministry.ministry.name %></td>
     <td><%= link_to 'Show', my_ministry %></td>
     <td><%= link_to 'Edit', edit_my_ministry_path(my_ministry) %></td>
     <td><%= link_to 'Destroy', my_ministry, confirm: 'Are you sure?', method: :delete %></td>

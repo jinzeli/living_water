@@ -22,7 +22,7 @@ class Coworker < ActiveRecord::Base
   validates :password, presence: true, length: { minimum: 6 }
   validates :password_confirmation, presence: true
   has_many :my_ministries, dependent: :destroy
-  
+  has_many :ministries, through: :my_ministries
   private 
     
     def create_remember_token

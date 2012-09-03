@@ -12,14 +12,24 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label :name, "姓名", class: "btn btn-info" %><br /><br />
     <%= f.text_field :name %>
   </div>
+  <br />
   <div class="field">
-    <%= f.label :email %><br />
+    <%= f.label :email, "电子邮件", class: "btn btn-info" %><br /><br />
     <%= f.text_field :email %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <br />
+  <div class="field">
+    <%= f.label :password, "密码", class: "btn btn-info" %><br /><br />
+    <%= f.password_field :password %>
   </div>
+  <br />
+  <div>
+    <%= f.label :password_confirmation, "再输入一遍密码确认", class: "btn btn-info" %>
+    <%= f.password_field :password_confirmation %>
+  </div>
+
+  <%= f.submit "更新事工账户", class: "btn btn-large btn-primary" %>
 <% end %>

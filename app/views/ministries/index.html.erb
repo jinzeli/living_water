@@ -1,28 +1,49 @@
 <h1>活水团契事工</h1>
-
-<table>
-  <tr>
-    <th>事工小组</th>
-    <th>事工内容</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
 <% @ministries.each do |ministry| %>
-  <tr>
-    <td><%= ministry.name %></td>
-    <td><%= ministry.description %></td>
-    <td><%= link_to 'Show', ministry %></td>
-    <td><%= link_to 'Edit', edit_ministry_path(ministry) %></td>
-    <td><%= link_to 'Destroy', ministry, confirm: 'Are you sure?', method: :delete %></td>
-    <td><%= button_to '我要加入！', my_ministries_path(ministry_id: ministry) %></td>
-  </tr>
+	<div class="row">
+		<div class="span8 offset2">
+			<div class="well">	
+				<div class="row">
+					<div class="span2 offset0">
+						<div class="well">						
+						<h3><%= ministry.name %></h3>
+						</div>				
+					</div>
+
+					<div class="span4 offset0">
+						<div class="well">				
+			    		<%= ministry.description %>
+			    		</div>
+			    	</div>
+			    	
+			    	<div class="span1 offset0">
+			    		<br />
+			    		<% if @coworker.ministries.find_by_id(ministry) %>
+			    			<%= button_to '我要退出？', 
+			    					{ controller: :my_ministries, action: :destroy,
+			    					  id: @coworker.my_ministries.find_by_ministry_id(ministry).id },
+			    					confirm: "确定退出吗", 
+			    					method: :delete, class: "btn btn-danger" %>
+			    		<% else %>
+			    			<%= button_to '我要加入！', my_ministries_path(ministry_id: ministry), class: "btn btn-success" %>
+			    		<% end %>
+			    	</div>
+			    </div>
+			    <div class="row">
+			    	<div class="span3">
+					    <%= link_to '显示', ministry, class: "btn btn-inverse"  %> ｜ 
+					    <%= link_to '编辑', edit_ministry_path(ministry), class: "btn btn-inverse" %> ｜ 
+					    <%= link_to '删除', ministry, confirm: '确定吗？', method: :delete, class: "btn btn-inverse" %>
+			    	</div>
+			    </div>	
+			</div>		
+		</div>
+	</div>
 <% end %>
-</table>
+
 
 
 
 <br />
 
-<%= link_to 'New Ministry', new_ministry_path %>
+<%= link_to '添加新事工', new_ministry_path, class: "btn btn-inverse" %>

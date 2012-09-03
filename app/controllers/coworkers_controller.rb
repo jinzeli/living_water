@@ -1,5 +1,8 @@
 # -*- encoding : utf-8 -*-
 class CoworkersController < ApplicationController
+  before_filter :signed_in_coworker, only: [:edit, :update, :index, :show]
+  before_filter :correct_coworker,   only: [:edit, :update]
+  before_filter :admin_coworker, only: [:new, :create, :destroy]
   # GET /coworkers
   # GET /coworkers.json
   def index
@@ -46,8 +49,8 @@ class CoworkersController < ApplicationController
     respond_to do |format|
       if @coworker.save
         sign_in @coworker
-        flash[:success] = "欢迎来到 爱服事 iMinistry！"
-        redirect_to @coworker
+        flash[:success] = "新人成功加添到 爱服事 | iMinistry！"
+        format.html { render action: "show" }
         format.json { render json: @coworker, status: :created, location: @coworker }
       else
         format.html { render action: "new" }
@@ -63,8 +66,9 @@ class CoworkersController < ApplicationController
 
     respond_to do |format|
       if @coworker.update_attributes(params[:coworker])
-        flash[:success] = "已经更改了哦。"
-        redirect_to @coworker
+        flash[:success] = "已经更改了哦"
+        sign_in @coworker
+        format.html { render action: "show" }
       else
         format.html { render action: "edit" }
         format.json { render json: @coworker.errors, status: :unprocessable_entity }

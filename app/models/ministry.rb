@@ -13,9 +13,10 @@
 # -*- encoding : utf-8 -*-
 
 class Ministry < ActiveRecord::Base
-  has_many :my_ministries
-  
-  before_destroy :ensure_not_referenced_by_any_my_ministry
+  has_many :my_ministries, dependent: :destroy
+  has_many :coworkers, through: :my_ministries
+  attr_accessible :name, :description
+  #before_destroy :ensure_not_referenced_by_any_my_ministry
   
   private
   

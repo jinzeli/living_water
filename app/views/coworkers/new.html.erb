@@ -1,24 +1,24 @@
 <% provide(:title, '注册') %>
-<h1>我要注册</h1>
+<h1>建立新的事工账户</h1>
 
 <div class="row">
   <div class="span6 offset3">
     <%= form_for(@coworker) do |f| %>
       <%= render 'shared/error_messages' %>
 
-      <%= f.label :name %>
+      <%= f.label :name, "姓名", class: "btn btn-info" %><br /><br />
       <%= f.text_field :name %>
-
-      <%= f.label :email %>
+<br /><br />
+      <%= f.label :email, "电子邮件", class: "btn btn-info" %><br /><br />
       <%= f.text_field :email %>
-
-      <%= f.label :password %>
+<br /><br />
+      <%= f.label :password, "密码", class: "btn btn-info" %><br /><br />
       <%= f.password_field :password %>
-
-      <%= f.label :password_confirmation, "Confirmation" %>
+<br /><br />
+      <%= f.label :password_confirmation, "再输入一遍密码确认", class: "btn btn-info" %><br /><br />
       <%= f.password_field :password_confirmation %>
 
-      <%= f.submit "建立事工账户", class: "btn btn-large btn-primary" %>
+      <%= f.submit "按我建立", class: "btn btn-large btn-primary" %>
     <% end %>
   </div>
 </div>

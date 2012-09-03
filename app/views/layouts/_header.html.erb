@@ -1,20 +1,24 @@
 <header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "活水团契", root_path, id: "logo" %>
+      <%= link_to "爱服事｜iMinistry", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "主页",    root_path %></li>
+          <li><%= link_to "主页", root_path %></li>
           <li><%= link_to "帮助",    "#" %></li>
           <% if signed_in? %>
-            <li><%= link_to "服事人员", '#' %></li>
+            <li><%= link_to "爱服事成员", coworkers_path %></li>
+            <li><%= link_to "事工小组", ministries_path %></li>
+            <% if admin_coworker? %>
+               <li><%= link_to "增加新人", signup_path %></li>
+            <% end %>
             <li id="fat-menu" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                账户 <b class="caret"></b>
+                我的账户 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
                 <li><%= link_to "档案", current_coworker %></li>
-                <li><%= link_to "设置", '#' %></li>
+                <li><%= link_to "设置", edit_coworker_path(current_coworker) %></li>
                 <li class="divider"></li>
                 <li>
                   <%= link_to "登出", signout_path, method: "delete" %>
