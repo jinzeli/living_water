@@ -22,8 +22,8 @@ class Coworker < ActiveRecord::Base
   validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
   validates :password, presence: true, length: { minimum: 6 }
   validates :password_confirmation, presence: true
-  validates :admin, inclusion: { in: [true, false], message: ": 是不是管理员？" }
-  validates :core_coworker, inclusion: { in: [true, false], message: ": 是不是同工？" }
+  #validates :admin, inclusion: { in: [true, false], message: ": 是不是管理员？" }
+  #validates :core_coworker, inclusion: { in: [true, false], message: ": 是不是同工？" }
   has_many :my_ministries, dependent: :destroy
   has_many :ministries, through: :my_ministries
   private 

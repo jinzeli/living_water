@@ -20,7 +20,7 @@ class Ministry < ActiveRecord::Base
   validates :name, length: { maximum: 20, message: "名字太长了，不能超过20字" }
   validates :description, presence: true
   validates :description, length: { maximum: 300, message: "描述太长了，不能超过300字" }
-  validates :core_coworker, inclusion: { in: [true, false], message: ": 是不是同工？" }
+  #validates :core_coworker, inclusion: { in: [true, false], message: ": 是不是同工？" }
   #before_destroy :ensure_not_referenced_by_any_my_ministry
   
   private
