@@ -1,12 +1,12 @@
 # -*- encoding : utf-8 -*-
 class MinistriesController < ApplicationController
   before_filter :signed_in_coworker, only: [:index, :show]
-  before_filter :core_coworker, only: [:index, :show, :create, :update, :destroy]
+  before_filter :core_coworker, only: [:create, :update, :destroy]
   before_filter :admin_coworker, only: [:new, :edit]
   # GET /ministries
   # GET /ministries.json
   def index
-    @ministries = Ministry.all
+    @ministries = Ministry.find(:all, order: "id")
     @coworker = current_coworker
     respond_to do |format|
       format.html # index.html.erb

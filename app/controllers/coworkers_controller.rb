@@ -6,7 +6,7 @@ class CoworkersController < ApplicationController
   # GET /coworkers
   # GET /coworkers.json
   def index
-    @coworkers = Coworker.all
+    @coworkers = Coworker.find(:all, order: "id")
 
     respond_to do |format|
       format.html # index.html.erb

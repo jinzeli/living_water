@@ -9,14 +9,16 @@
    		   <br />
    		   <% if coworker.my_ministries.any? %>
    		   		<% coworker.ministries.each do |ministry| %>
+   		   			<% unless (ministry.core_coworker? && current_coworker.core_coworker? == false) %>
    		   			<span class="label label-info"><%= ministry.name %></span>
+   		   			<% end %>
    		   		<% end %>
    		   <% end %>
    		   <span class="label">爱服事成员</span>
-   		   <% if coworker.core_coworker? %>
+   		   <% if current_coworker.core_coworker? && coworker.core_coworker? %>
    		   		<span class="label">团契同工</span>
    		   <% end %>
-   		   <% if coworker.admin? %>
+   		   <% if coworker.admin? && current_coworker.admin? %>
    		   		<span class="label">管理员</span>
    		   <% end %>
    		</div>

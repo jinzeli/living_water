@@ -1,7 +1,7 @@
 # -*- encoding : utf-8 -*-
 class MyMinistriesController < ApplicationController
-  before_filter :signed_in_coworker, only: [:index, :show, :create]
-  before_filter :core_coworker, only: [:index, :show, :create, :update, :destroy]
+  before_filter :signed_in_coworker, only: [:index, :show, :create, :destroy]
+  before_filter :core_coworker, only: [:update]
   before_filter :admin_coworker, only: [:new, :edit]
   #before_filter :signed_in_coworker, only: [:index, :show]
   #before_filter :correct_coworker,   only: [:create, :destroy]

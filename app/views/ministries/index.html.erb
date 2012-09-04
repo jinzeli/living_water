@@ -1,5 +1,8 @@
 <h1>活水团契事工</h1>
 <% @ministries.each do |ministry| %>
+	<% unless (ministry.core_coworker? && @coworker.core_coworker? == false) %>
+		
+	
 	<div class="row">
 		<div class="span8 offset2">
 			<div class="well">	
@@ -15,7 +18,6 @@
 			    		<%= ministry.description %>
 			    		</div>
 			    	</div>
-			    	
 			    	<div class="span1 offset0">
 			    		<br />
 			    		<% if @coworker.ministries.find_by_id(ministry) %>
@@ -41,11 +43,13 @@
 			</div>		
 		</div>
 	</div>
+	<% end %>
 <% end %>
 
 
 
 
 <br />
-
+<% if @current_coworker.admin? %>
 <%= link_to '添加新事工', new_ministry_path, class: "btn btn-inverse" %>
+<% end %>
