@@ -3,9 +3,22 @@
 	<div class="span2">
    		<%= gravatar_for coworker %>
    	</div>
-   	<div class="span6">
+   	<div class="span7">
     	<div class="well">
-   		   		<h3><%= link_to coworker.name, coworker %></h3>
+   		   <h3><%= link_to coworker.name, coworker %></h3>
+   		   <br />
+   		   <% if coworker.my_ministries.any? %>
+   		   		<% coworker.ministries.each do |ministry| %>
+   		   			<span class="label label-info"><%= ministry.name %></span>
+   		   		<% end %>
+   		   <% end %>
+   		   <span class="label">爱服事成员</span>
+   		   <% if coworker.core_coworker? %>
+   		   		<span class="label">团契同工</span>
+   		   <% end %>
+   		   <% if coworker.admin? %>
+   		   		<span class="label">管理员</span>
+   		   <% end %>
    		</div>
    </div>
    <div class="span3">

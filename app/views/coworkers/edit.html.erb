@@ -24,6 +24,47 @@
 <br /><br />
       <%= f.label :password_confirmation, "再输入一遍密码确认", class: "btn btn-info" %><br /><br />
       <%= f.password_field :password_confirmation %>
+      
+      <% if admin_coworker? && current_coworker.id != @coworker.id %>
+            <br /><br />
+      <%= f.label :admin, "管理员",class: "btn btn-info" %><br /><br />
+      <div class="btn-group" data-toggle="buttons-radio">
+	  	  <button type="button" class="btn">
+	  	  	<% if @coworker.admin? %>
+	  		<%= f.radio_button :admin, true, checked: true %><%= label :admin, '是' %>
+	  		<% else %>
+	  			<%= f.radio_button :admin, true %><%= label :admin, '是' %>
+	  		<% end %>
+	  	  </button>
+	  	  <button type="button" class="btn">
+	  	  	<% if @coworker.admin? %>
+	  	  	<%= f.radio_button :admin, false %><%= label :admin, '不是' %>
+	  	  	<% else %>
+	  	  	<%= f.radio_button :admin, false, checked: true %><%= label :admin, '不是' %>
+	  	  	<% end %>
+	  	  </button>
+	  </div>
+
+	<br /><br />
+	  <%= f.label :core_coworker, "同工",class: "btn btn-info" %><br /><br />
+      <div class="btn-group" data-toggle="buttons-radio">
+	  	  <button type="button" class="btn">
+	  	  	<% if @coworker.core_coworker? %>
+	  		<%= f.radio_button :core_coworker, true, checked: true %><%= label :core_coworker, '是' %>
+	  		<% else %>
+	  		<%= f.radio_button :core_coworker, true %><%= label :core_coworker, '是' %>
+	  		<% end %>
+	  	  </button>
+	  	  <button type="button" class="btn">
+	  	  	<% if @coworker.core_coworker? %>
+	  		<%= f.radio_button :core_coworker, false %><%= label :core_coworker, '不是' %>
+	  		<% else %>
+	  		<%= f.radio_button :core_coworker, false, checked: true %><%= label :core_coworker, '不是' %>
+	  		<% end %>
+	  	  </button>
+	  </div>
+	  <br />
+      <% end %>
 
       <%= f.submit "保存", class: "btn btn-large btn-primary" %>	
     <% end %>

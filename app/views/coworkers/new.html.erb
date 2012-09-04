@@ -1,5 +1,5 @@
 <% provide(:title, '注册') %>
-<h1>建立新的事工账户</h1>
+<h1>建立新的爱服事成员</h1>
 
 <div class="row">
   <div class="span6 offset3">
@@ -17,7 +17,29 @@
 <br /><br />
       <%= f.label :password_confirmation, "再输入一遍密码确认", class: "btn btn-info" %><br /><br />
       <%= f.password_field :password_confirmation %>
+      
+      <br /><br />
+      <%= f.label :admin, "管理员",class: "btn btn-info" %><br /><br />
+      <div class="btn-group" data-toggle="buttons-radio">
+	  	  <button type="button" class="btn">
+	  		<%= f.radio_button :admin, true %><%= label :admin, '是' %>
+	  	  </button>
+	  	  <button type="button" class="btn">
+	  	  	<%= f.radio_button :admin, false, checked: true %><%= label :admin, '不是' %>
+	  	  </button>
+	  </div>
 
+	<br /><br />
+	  <%= f.label :core_coworker, "同工",class: "btn btn-info" %><br /><br />
+      <div class="btn-group" data-toggle="buttons-radio">
+	  	  <button type="button" class="btn">
+	  		<%= f.radio_button :core_coworker, true %><%= label :core_coworker, '是' %>
+	  	  </button>
+	  	  <button type="button" class="btn">
+	  		<%= f.radio_button :core_coworker, false, checked: true %><%= label :core_coworker, '不是' %>
+	  	  </button>
+	  </div>
+<br />
       <%= f.submit "按我建立", class: "btn btn-large btn-primary" %>
     <% end %>
   </div>

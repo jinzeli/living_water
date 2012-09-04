@@ -5,7 +5,12 @@
     </div>
     <div class="span5">
     	<div class="well">
-      <h3><%= @coworker.name %></h3>
+      <h3><%= @coworker.name %></h3><br />
+      <h3><%= @coworker.email %></h3>
+      <% if admin_coworker? %>
+      <br />
+      	<%= link_to '编辑', edit_coworker_path(@coworker), class: "btn btn-inverse" %>
+      <% end %>
       </div>
 	</div>
 </div>

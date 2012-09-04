@@ -48,9 +48,9 @@ class CoworkersController < ApplicationController
 
     respond_to do |format|
       if @coworker.save
-        sign_in @coworker
+        #sign_in @coworker
         flash[:success] = "新人成功加添到 爱服事 | iMinistry！"
-        format.html { render action: "show" }
+        format.html { redirect_to coworkers_url }
         format.json { render json: @coworker, status: :created, location: @coworker }
       else
         format.html { render action: "new" }
@@ -67,8 +67,10 @@ class CoworkersController < ApplicationController
     respond_to do |format|
       if @coworker.update_attributes(params[:coworker])
         flash[:success] = "已经更改了哦"
-        sign_in @coworker
-        format.html { render action: "show" }
+        if current_coworker == @coworker
+          sign_in @coworker
+        end
+        format.html { redirect_to coworkers_url }
       else
         format.html { render action: "edit" }
         format.json { render json: @coworker.errors, status: :unprocessable_entity }

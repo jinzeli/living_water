@@ -1,6 +1,30 @@
 <h1>Editing my_ministry</h1>
 
-<%= render 'form' %>
+<%= form_for(@my_ministry) do |f| %>
+  <% if @my_ministry.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@my_ministry.errors.count, "error") %> prohibited this my_ministry from being saved:</h2>
+
+      <ul>
+      <% @my_ministry.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :coworker_id %><br />
+    <%= f.number_field :coworker_id %>
+  </div>
+  <div class="field">
+    <%= f.label :ministry_id %><br />
+    <%= f.number_field :ministry_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
 
 <%= link_to 'Show', @my_ministry %> |
 <%= link_to 'Back', my_ministries_path %>

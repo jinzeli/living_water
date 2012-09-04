@@ -1,5 +1,7 @@
 # -*- encoding : utf-8 -*-
 class MyMinistriesController < ApplicationController
+  before_filter :signed_in_coworker, only: [:index, :show]
+  before_filter :admin_coworker, only: [:new, :edit, :create, :update, :destroy]
   #before_filter :signed_in_coworker, only: [:index, :show]
   #before_filter :correct_coworker,   only: [:create, :destroy]
   #before_filter :admin_coworker, only: [:new, :update, :edit]
@@ -7,7 +9,16 @@ class MyMinistriesController < ApplicationController
   # GET /my_ministries.json
   def index
     @my_ministries = MyMinistry.all
-
+    @ministries = Ministry.find(:all, order: "id")
+    @coworkers = Coworker.all
+    person_count = 0
+    @coworkers.each do |coworker|
+      if coworker.ministries.any?
+         person_count += 1
+      end
+    end
+    @joined_ministry_person_count = person_count
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @my_ministries }
@@ -17,8 +28,8 @@ class MyMinistriesController < ApplicationController
   # GET /my_ministries/1
   # GET /my_ministries/1.json
   def show
-    @my_ministry = MyMinistry.find(params[:id])
-
+    #@my_ministry = MyMinistry.find(params[:id])
+    @coworker = Coworker.find(params[:id])
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @my_ministry }

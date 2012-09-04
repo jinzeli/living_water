@@ -43,7 +43,9 @@ module SessionsHelper
     
     def correct_coworker
       @coworker = Coworker.find(params[:id])
-      redirect_to(root_path) unless current_coworker?(@coworker)
+      if (!admin_coworker?)
+        redirect_to(root_path) unless current_coworker?(@coworker)
+      end
     end
     
     def admin_coworker

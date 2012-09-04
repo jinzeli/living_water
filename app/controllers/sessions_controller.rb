@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
     coworker = Coworker.find_by_email(params[:session][:email].downcase)
     if coworker && coworker.authenticate(params[:session][:password])
       sign_in coworker
-      redirect_to coworker
+      redirect_to ministries_url
       flash[:success] = '欢迎来到 爱服事 | iMinistry！'
     else
       flash.now[:error] = 'Email和Password的组合不太对哦～'

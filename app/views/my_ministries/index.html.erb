@@ -1,25 +1,41 @@
-<h1>Listing my_ministries</h1>
 
-<table>
+<div class="row">
+		<div class="span10 offset1">
+<div class="well">
+	<h1>爱统计</h1>
+	<br /><br />
+	<h5>共有 <span class="label label-warning"><%= @ministries.count %></span> 个事工小组。
+	有 <span class="label label-warning"><%= @my_ministries.count %></span> 人次参与服事。
+	共有 <span class="label label-warning"><%= @coworkers.count %></span> 个人受到邀请，
+	其中 <span class="label label-warning"><%= @joined_ministry_person_count %></span> 参与了服事，
+	参与服事的比例为 
+		<span class="label label-warning">
+			<%= (@joined_ministry_person_count.to_f)*100/@coworkers.count unless @coworkers.count==0 %>%
+		</span>。</h5>
+	
+	
+	<br /><br />
+<table class="table">
   <tr>
-    <th>Coworker</th>
-    <th>Ministry</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>爱服侍成员</th>
+    <th>团契事工</th>
+
   </tr>
 
-<% @my_ministries.each do |my_ministry| %>
-  <tr>
-    <td><%= my_ministry.coworker.name %></td>
-    <td><%= my_ministry.ministry.name %></td>
-    <td><%= link_to 'Show', my_ministry %></td>
-    <td><%= link_to 'Edit', edit_my_ministry_path(my_ministry) %></td>
-    <td><%= link_to 'Destroy', my_ministry, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
+<% @ministries.each do |ministry| %>
+	<% ministry.coworkers.each do |coworker| %>
+	<tr>
+		<td><%= ministry.name %></td>
+		<td><%= coworker.name %></td>
+	</tr>
+	<% end %>
 <% end %>
+  <tr>
+  	<td></td>
+  	<td></td>
+
+  </tr>
 </table>
-
-<br />
-
-<%= link_to 'New My ministry', new_my_ministry_path %>
+</div>
+</div></div>
+<!--<%= link_to 'New My ministry', new_my_ministry_path %>-->

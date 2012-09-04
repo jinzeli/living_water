@@ -1,15 +1,20 @@
 <p id="notice"><%= notice %></p>
+	<div class="row">
+	<div class="span8 offset0">
+		<div class="row">
+	<div class="span3 offset4">
+	<h1>我的服事</h1>
+	</div></div>
+<table>
+<% @coworker.my_ministries.each do |my_ministry| %>
+  <tr>
+    <td><h3><div class="span5 offset2">
+			<div class="well"><%= my_ministry.ministry.name %>
+			</div></div>
+			</h3></td>
+  </tr>
+<% end %>
+</table>
+</div>
+</div>
 
-<p>
-  <b>Coworker:</b>
-  <%= @my_ministry.coworker_id %>
-</p>
-
-<p>
-  <b>Ministry:</b>
-  <%= @my_ministry.ministry_id %>
-</p>
-
-
-<%= link_to 'Edit', edit_my_ministry_path(@my_ministry) %> |
-<%= link_to 'Back', my_ministries_path %>
