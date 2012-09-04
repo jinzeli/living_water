@@ -7,10 +7,11 @@
 	<h5>共有 <span class="label label-warning"><%= @ministries.count %></span> 个事工小组。
 	有 <span class="label label-warning"><%= @my_ministries.count %></span> 人次参与服事。
 	共有 <span class="label label-warning"><%= @coworkers.count %></span> 个人受到邀请，
-	其中 <span class="label label-warning"><%= @joined_ministry_person_count %></span> 参与了服事，
-	参与服事的比例为 
+	其中 <span class="label label-warning"><%= @joined_ministry_person_count %></span> 人参与了服事，
+	</h5><br /><h5>参与服事的比例为
 		<span class="label label-warning">
-			<%= (@joined_ministry_person_count.to_f)*100/@coworkers.count unless @coworkers.count==0 %>%
+			
+			<%= ((@joined_ministry_person_count.to_f)*100/@coworkers.count).round(2) unless @coworkers.count==0 %>%
 		</span>。</h5>
 	
 	

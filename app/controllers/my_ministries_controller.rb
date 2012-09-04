@@ -1,7 +1,8 @@
 # -*- encoding : utf-8 -*-
 class MyMinistriesController < ApplicationController
-  before_filter :signed_in_coworker, only: [:index, :show]
-  before_filter :admin_coworker, only: [:new, :edit, :create, :update, :destroy]
+  before_filter :signed_in_coworker, only: [:index, :show, :create]
+  before_filter :core_coworker, only: [:index, :show, :create, :update, :destroy]
+  before_filter :admin_coworker, only: [:new, :edit]
   #before_filter :signed_in_coworker, only: [:index, :show]
   #before_filter :correct_coworker,   only: [:create, :destroy]
   #before_filter :admin_coworker, only: [:new, :update, :edit]
@@ -56,6 +57,7 @@ class MyMinistriesController < ApplicationController
   # POST /my_ministries.json
   def create
     #@my_ministry = MyMinistry.new(params[:my_ministry])
+    flash[:success] = "我到这了！"
     @coworker = current_coworker
     ministry = Ministry.find(params[:ministry_id])
     @my_ministry = @coworker.my_ministries.build(ministry: ministry)

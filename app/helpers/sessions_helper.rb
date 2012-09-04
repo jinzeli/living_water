@@ -55,4 +55,12 @@ module SessionsHelper
     def admin_coworker?
       current_coworker.admin?
     end
+    
+    def core_coworker
+      redirect_to(root_path) unless current_coworker.core_coworker?
+    end
+    
+    def core_coworker?
+      current_coworker.core_coworker?
+    end
 end

@@ -29,6 +29,7 @@
 			    		<% end %>
 			    	</div>
 			    </div>
+			    <% if current_coworker.admin? %>
 			    <div class="row">
 			    	<div class="span3">
 					    <%= link_to '显示', ministry, class: "btn btn-inverse"  %> ｜ 
@@ -36,6 +37,7 @@
 					    <%= link_to '删除', ministry, confirm: '确定吗？', method: :delete, class: "btn btn-inverse" %>
 			    	</div>
 			    </div>	
+			    <% end %>
 			</div>		
 		</div>
 	</div>
