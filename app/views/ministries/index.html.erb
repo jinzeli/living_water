@@ -20,6 +20,8 @@
 			    	</div>
 			    	<div class="span1 offset0">
 			    		<br />
+			    		<%= button_to '报名到期了', class: "btn" %>
+			    		<!--
 			    		<% if @coworker.ministries.find_by_id(ministry) %>
 			    			<%= button_to '我要退出？', 
 			    					{ controller: :my_ministries, action: :destroy,
@@ -29,6 +31,7 @@
 			    		<% else %>
 			    			<%= button_to '我要加入！', my_ministries_path(ministry_id: ministry), class: "btn btn-success" %>
 			    		<% end %>
+			    		-->
 			    	</div>
 			    </div>
 			    <% if current_coworker.admin? %>
